@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  company_name: MyString
+  starting_station: MyString
+  destination: MyString
+  departure: 2019-11-24 19:15:38
+  arrival: 2019-11-24 19:15:38
+  remaining_tickets: 1
+  user: one
+
+two:
+  company_name: MyString
+  starting_station: MyString
+  destination: MyString
+  departure: 2019-11-24 19:15:38
+  arrival: 2019-11-24 19:15:38
+  remaining_tickets: 1
+  user: two

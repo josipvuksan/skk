@@ -1,0 +1,15 @@
+<h1>Home</h1>
+<h2>Welcome to home page of SKK</h2>
+
+<%if logged_in?%>
+    <div class="row">
+        <aside class="col-md-4">
+            <section class="user_info">
+                <%=render 'shared/trip_form'%>
+            </section>
+        </aside>
+    </div>
+<%else%>
+    <h3>There are no trips to show right now. Make sure to register and make them</h3>
+<%end%>    
+
